@@ -1,0 +1,20 @@
+#How to use Git with Github
+
+### get code from Github
+git clone https://www.github.com/BlessNN/dailycode.git
+DailyCode
+
+### show changed files 
+git status
+
+### add all the changed files to stage
+git add .
+
+### make sure to add (git status show nothing from now on )
+git commit -m "reason or words to commit this changed version,which make it turn back clearly"
+
+### push to github
+git push origin master
+
+### first push needed
+git remote add origin master https://github.com/BlessNN/dailycode.git
